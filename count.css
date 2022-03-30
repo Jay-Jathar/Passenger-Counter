@@ -1,0 +1,55 @@
+body{
+    background-image: url(images/count.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.p1 {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    width: 80%;
+    padding: 50px 10% 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+button{
+    color: #090909;
+    padding: 0.7em 1.7em;
+    border-radius: 0.5em;
+    background-color: aliceblue;
+    border: 1px solid;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #090909, -6px -6px 12px #090909;
+    margin: 5px
+}
+
+.count{
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    position: relative;
+    padding: 0 20px;
+    font-size: 18px;
+    border: 0;
+    box-shadow: rgb(0, 0, 0) 0px 7px 0px 0px;
+    background-color: rgb(24, 25, 27);
+    border-radius: 50%;
+    transition: transform .3s ease-in-out;
+    touch-action: manipulation;
+}
+
+h2{
+    font-size: 60px;
+}
